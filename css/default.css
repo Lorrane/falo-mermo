@@ -1,0 +1,29 @@
+iframe {
+    
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    margin: 10px auto;
+}
+
+@media (min-width: 820px) {
+    iframe {
+        width: 800px;
+    }
+}
+
+@media (max-width: 819px){
+    iframe {
+        width: 99.5%;
+    }
+}
+
+.container {
+    max-width: 800px;
+    background-color: rgba(241, 238, 202, 0.623);
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
