@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+#praias {
+    background-image: url("https://a.cdn-hotels.com/gdcs/production118/d1149/9d00c228-206c-4c8d-a570-946ff1b5f450.jpg");
+    background-size: 280px;
+    background-repeat: no-repeat;
+}
+#passeios {
+    background-image: url("https://www.riopasseiosetrilhas.com/wp-content/uploads/2018/04/HELI-PANORAMICO.jpg");
+    background-size: 280px;
+    background-repeat: no-repeat;
+}
+#pontos-turisticos {
+    background-image: url("https://i0.statig.com.br/bancodeimagens/ew/mf/d5/ewmfd5ebb6twguc2yjqswlu2y.jpg");
+    background-size: 280px;
+    background-repeat: no-repeat;
+}
+#transportes {
+    background-image: url("https://i0.statig.com.br/bancodeimagens/73/m8/23/73m823eohzr48tb38gy8h3tb4.jpg");
+    background-size: 280px;
+    background-repeat: no-repeat;
+}
+#bares {
+    background-image: url("https://blog.jumpinbed.com.br/wp-content/uploads/2019/05/bar-boteco.jpg");
+    background-size: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#dicas {
+    background-image: url("https://www.defesacivil.pr.gov.br/sites/defesa-civil/arquivos_restritos/files/imagem/2018-12/1523_dica.png");
+    background-size: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img {
+    width: 180px;
+    height: 180px;
+    border-radius: 120px;
+    margin: 10px;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(107, 106, 106, 0.835);
+    font-size: 2.1em;
+    color: #FFF;
+    text-shadow: 2px 2px 10px rgb(17, 0, 255);
+}
+
+.img:hover {
+    opacity: 1;
+    z-index: 1;
+    transform: scale(1.5);
+    border-radius: 5px;
+    transition: 0.5s;
+}

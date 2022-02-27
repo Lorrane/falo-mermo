@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="O lugar onde contamos o que ninguém quer te contar sobre o Rio de Janeiro">
-    <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="stylesheet" href="./css/default.css">
+    <meta name="description"
+        content="O lugar onde contamos o que ninguém quer te contar sobre o turismo no Rio de Janeiro">
     <link rel="stylesheet" href="./css/index.css">
     <title>Falo Mermo</title>
 </head>
+
 <body>
-        <iframe src="./pages/header.html"></iframe>
+
+    <!-- Começo do cabeçalho, onde será base para todas as páginas. -->
+    <header>
+        <h1>Falo Mermo!</h1>
+        <h3>Site que fala a verdade sobre o turismo no Rio de Janeiro</h3>
+    </header>
+
+    <!-- Começo do main, onde ficará o iframe que mudará conforme a página ativa. -->
     <main>
-        <div class="container">
-            <a href="./pages/praias.html">
-                <span class="img" id="praias">Praias</span>
-            </a>
-            <a href="./pages/passeios.html">
-                <span class="img" id="passeios">Passeios</span>
-            </a>
-            <a href="./pages/pontos.html">
-                <span class="img" id="pontos-turisticos">Pontos Turísticos</span>
-            </a>
-            <a href="./pages/transportes.html">
-                <span class="img" id="transportes">Transportes</span>
-            </a>
-            <a href="./pages/bares.html">
-                <span class="img" id="bares">Bares</span>
-            </a>
-            <a href="./pages/dicas.html">
-                <span class="img" id="dicas">Dicas</span>
-            </a>
-            
-        </div>
+        <iframe src="./pages/home.html"
+            frameborder="0"
+            scrolling="no"
+            onload="this.style.height=(this.contentWindow.document.body.scrollHeight+20)+'px';"></iframe>
     </main>
-    <iframe src="./pages/footer.html" frameborder="0"></iframe>
+
+    <!-- Começo do footer, onde ficará o mapa do site e informações de contato e desenvolvedor -->
+    <footer>
+        Rodapé com muita informação e organizadinho.
+        <img align="right" alt="Developed by Lorrane"
+            src="https://img.shields.io/badge/Developed%20By-Lorrane-blue?logo=visual%20studio" />
+    </footer>
 </body>
+
 </html>
