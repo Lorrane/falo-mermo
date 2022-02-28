@@ -8,13 +8,17 @@
 :root {
     --fundo: #92d3ec;
     --fonte: #3d3d3d;
-    --fundo-card: #008aae;
-    --fonte-card: #dfe0d8;
+    --fundo-card: #dcd4bf;
+    --fonte-card: #3d3d3d;
     --fundo-card-hover: #dcd4bf;
     --sombra: white;
     --borda: lightgrey;
     --fundo-claro: #f4f5f0;
     --fonte-hover: #010a8f;
+}
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 a {
