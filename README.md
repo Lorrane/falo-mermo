@@ -1,6 +1,3 @@
-<p align=center>
-<img width=300 src="https://github.com/Lorrane/RA/blob/main/images/R%26A_%20facebook-capa.png" alt="Logo RA" />
-</p>
 <h1 align=center>Falo Mermo</h1>
 <p display=inline-block>
   <img align=right alt="Status: Working on" src="https://img.shields.io/badge/Status-Working%20on-orange" />
@@ -12,10 +9,23 @@ Site de informações úteis e bem humorado para turistas que pretendem conhecer
 
 ## Roteiro
 
-- [x] Fazer o esqueleto
-- [ ] Fazer o cabeçalho
-- [ ] Fazer o main
-- [ ] fazer o rodapé
+- [x] Mount a structure os index
+- [x] The header
+- [x] The flexible main
+- [x] Home outside main
+- [x] Praias page
+- [ ] Base of Praia page
+- [ ] Passeios page
+- [ ] Base of Passeio page
+- [ ] Pontos Turísticos page
+- [ ] Base of Pontos Turísticos page
+- [ ] Transportes page
+- [ ] Base of Transportes page
+- [ ] Bares page
+- [ ] Base of Bares page
+- [ ] Dicas page
+- [ ] Base of Dicas page
+- [ ] Footer
 
 ## Modelo
 
