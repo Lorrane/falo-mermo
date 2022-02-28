@@ -106,10 +106,11 @@ a {
 
 .card:hover .face.face1 .content {
     opacity: 1;
+
 }
 
 .card:hover h3 {
-    color: var(--fonte);
+    color: var(--fonte-hover);
 }
 
 .card:hover .face.face2 {

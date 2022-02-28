@@ -1,5 +1,9 @@
 @import url(./default.css);
 
+body {
+    background-color: var(--fundo-claro);
+}
+
 header {
     max-width: 800px;
     background-color: var(--fundo);

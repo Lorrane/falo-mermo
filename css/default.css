@@ -6,13 +6,15 @@
 */
 
 :root {
-    --fundo: #56c6fa48;
-    --fonte: #0c007a;
-    --fundo-card: #0c007a;
-    --fonte-card: white;
-    --fundo-card-hover: white;
+    --fundo: #92d3ec;
+    --fonte: #3d3d3d;
+    --fundo-card: #008aae;
+    --fonte-card: #dfe0d8;
+    --fundo-card-hover: #dcd4bf;
     --sombra: white;
     --borda: lightgrey;
+    --fundo-claro: #f4f5f0;
+    --fonte-hover: #010a8f;
 }
 
 a {
