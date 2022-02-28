@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Pacifico&display=swap');
 
+/* Coments 
+
+*/
+
 :root {
-    --cor-base: #5797c8;
-    --cor-fonte: #FFE7DC;
+    --fundo: #56c6fa48;
+    --fonte: #0c007a;
+    --sombra: #fff;
     --cor-secundaria: #F2542D;
 }
 
 header {
     max-width: 800px;
-    background-color: var(--cor-base);
+    background-color: var(--fundo);
+    text-shadow: var(--sombra);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,17 +27,17 @@ header {
 header h1 {
     margin: 10px auto;
     font-family: 'Pacifico', cursive;
-    color: var(--cor-fonte);
+    color: var(--fonte);
 }
 
 header h3 {
     margin: 10px auto;
     font-family: 'Nunito Sans', sans-serif;
-    color: var(--cor-fonte);
+    color: var(--fonte);
 }
 
 iframe {
-    background-color: var(--cor-base);
+    background-color: var(--fundo);
     border-radius: 10px;
     display: flex;
     margin: 10px auto;
@@ -51,8 +57,8 @@ iframe {
 
 footer {
     max-width: 800px;
-    background-color: var(--cor-base);
-    color: var(--cor-fonte);
+    background-color: var(--fundo);
+    color: var(--fonte);
     /* display: flex; */
     margin: 10px auto;
     border-radius: 10px;

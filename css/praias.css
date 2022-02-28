@@ -1,23 +1,32 @@
+:root {
+    --fundo: #a9dff8;
+    --fonte: #0c007a;
+    --fonte-card: white;
+    --sombra: #fff;
+}
+
 body {
     margin: 0;
     padding: 0;
-    /* background-color: #333; */
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* font-family: consolas; */
 }
 
-h1, h3 {
+h1 {
     text-align: center;
+}
+
+.titulos {
+    padding: 5px 40px;
+    color: var(--fonte);
 }
 
 .container {
     max-width: 800px;
     display: flex;
     justify-content: space-around;
-    /* position: relative; */
     flex-wrap: wrap;
 }
 
@@ -44,18 +53,18 @@ h1, h3 {
 }
 
 #praia1 {
-    background-image: url("https://a.cdn-hotels.com/gdcs/production118/d1149/9d00c228-206c-4c8d-a570-946ff1b5f450.jpg");
+    /* background-image: url("https://a.cdn-hotels.com/gdcs/production118/d1149/9d00c228-206c-4c8d-a570-946ff1b5f450.jpg"); */
     background-size: 300px;
     background-repeat: no-repeat;
 }
 
 .card:hover .face.face1 {
-    background: #862dda;
+    background: var(--fundo);
     transform: translateY(0);
 }
 
 .face1 .content {
-    opacity: 0.6;
+    opacity: 0.5;
     transition: 0.5s;
 }
 
@@ -64,26 +73,28 @@ h1, h3 {
 }
 
 img {
-    max-width: 100px;
+    border-radius: 5px;
+    max-height: 160px;
+    max-width: 280px;
 }
 
 .content h3 {
-    margin: 10px 0 0;
+    margin: 5px 0 0;
     padding: 0;
-    color: #fff;
+    color: var(--fonte-card);
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .face2 {
     position: relative;
-    background: #fff;
+    background: var(--fundo);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
-    box-shadow: 0 20px 50px rgb(0, 0, 0, 0.8);
+    box-shadow: 0 0 50px rgb(0, 0, 0, 0.8);
     transform: translateY(-100px)
 }
 
@@ -94,6 +105,11 @@ img {
 .card:hover .face.face2 {
     transform: translateY(0);
     border-radius: 0 0 10px 10px;
+    box-shadow: none;
+}
+
+.card:hover h3 {
+    color: var(--fonte);
 }
 
 p {
