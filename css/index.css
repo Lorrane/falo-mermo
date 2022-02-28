@@ -12,16 +12,19 @@ header {
     border-radius: 10px;
 }
 
+header h1, h2 {
+    color: var(--fonte);
+    text-align: center;
+}
+
 header h1 {
     margin: 10px auto;
     font-family: 'Pacifico', cursive;
-    color: var(--fonte);
 }
 
 header h2 {
     margin: 0px auto;
     font-family: 'Nunito Sans', sans-serif;
-    color: var(--fonte);
 }
 
 iframe {

@@ -8,15 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-h1 {
-    text-align: center;
-}
-
-.titulos {
-    padding: 5px 40px;
-    color: var(--fonte);
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .container {
@@ -25,6 +17,16 @@ h1 {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+.titulos {
+    margin: 10px 7%;
+    color: var(--fonte);
+}
+
+h1 {
+    text-align: center;
+}
+
 
 .card {
     position: relative;
@@ -48,30 +50,9 @@ h1 {
     transform: translateY(100px);
 }
 
-#praia1 {
-    /* background-image: url("https://a.cdn-hotels.com/gdcs/production118/d1149/9d00c228-206c-4c8d-a570-946ff1b5f450.jpg"); */
-    background-size: 300px;
-    background-repeat: no-repeat;
-}
-
-.card:hover .face.face1 {
-    background: var(--fundo);
-    transform: translateY(0);
-}
-
 .face1 .content {
     opacity: 0.5;
     transition: 0.5s;
-}
-
-.card:hover .face.face1 .content {
-    opacity: 1;
-}
-
-img {
-    border-radius: 5px;
-    max-height: 160px;
-    max-width: 280px;
 }
 
 .content h3 {
@@ -82,9 +63,15 @@ img {
     font-size: 1.8em;
 }
 
+img {
+    border-radius: 5px;
+    max-height: 160px;
+    max-width: 280px;
+}
+
 .face2 {
     position: relative;
-    background: var(--fundo);
+    background: var(--fundo-card-hover);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,8 +81,35 @@ img {
     transform: translateY(-100px)
 }
 
+p {
+    margin: 0;
+    padding: 0;
+
+    color: var(--fonte);
+}
+
+a {
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: var(--fonte);
+    border-radius: 5px;
+}
+
 .card:hover .face.face1 {
+    background: var(--fundo-card-hover);
     border-radius: 10px 10px 0 0;
+    transform: translateY(0);
+}
+
+
+.card:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.card:hover h3 {
+    color: var(--fonte);
 }
 
 .card:hover .face.face2 {
@@ -104,25 +118,7 @@ img {
     box-shadow: none;
 }
 
-.card:hover h3 {
-    color: var(--fonte);
-}
-
-p {
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    margin: 15px 0 0;
-    display: inline-block;
-    text-decoration: none;
-    font-weight: 900;
-    color: #333;
-    border: 1px solid #333;
-}
-
 a:hover {
-    background: #333;
-    color: #fff;
+    background: var(--fundo-card);
+    color: white;
 }
