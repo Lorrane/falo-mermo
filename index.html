@@ -21,16 +21,78 @@
 
     <!-- Começo do main, onde ficará o iframe que mudará conforme a página ativa. -->
     <main>
-        <iframe src="./pages/home.html"
-            name="main"
-            frameborder="0"
-            scrolling="no"
+        <iframe src="./pages/home.html" name="main" frameborder="0" scrolling="no"
             onload="this.style.height=(this.contentWindow.document.body.scrollHeight+20)+'px';"></iframe>
     </main>
 
     <!-- Começo do footer, onde ficará o mapa do site e informações de contato e desenvolvedor -->
     <footer>
-        Rodapé com muita informação e organizadinho.
+        <div class="mapa">
+            <details>
+                <summary>Praias</summary>
+                <ul>
+                    <li>
+                        <a href="#">Praia 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Praia 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Praia 3</a>
+                    </li>
+                </ul>
+            </details>
+            <details>
+                <summary>
+                    <a href="#">Passeios</a>
+                </summary>
+                <ul>
+                    <li>
+                        <a href="#">Passeio 1</a>
+                    </li>
+                </ul>
+            </details>
+            <details>
+                <summary>
+                    <a href="#">Pontos Turísticos</a>
+                </summary>
+                <ul>
+                    <li>
+                        <a href="#">Ponto Turísticos 1</a>
+                    </li>
+                </ul>
+            </details>
+            <details>
+                <summary>
+                    <a href="#">Transportes</a>
+                </summary>
+                <ul>
+                    <li>
+                        <a href="#">Transporte 1</a>
+                    </li>
+                </ul>
+            </details>
+            <details>
+                <summary>
+                    <a href="#">Bares</a>
+                </summary>
+                <ul>
+                    <li>
+                        <a href="#">Bar 1</a>
+                    </li>
+                </ul>
+            </details>
+            <details>
+                <summary>
+                    <a href="#">Dicas</a>
+                </summary>
+                <ul>
+                    <li>
+                        <a href="#">Dica 1</a>
+                    </li>
+                </ul>
+            </details>
+        </div>
         <img align="right" alt="Developed by Lorrane"
             src="https://img.shields.io/badge/Developed%20By-Lorrane-blue?logo=visual%20studio" />
     </footer>

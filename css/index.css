@@ -59,3 +59,23 @@ footer {
     border-radius: 10px;
 }
 
+.mapa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+details {
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 10px 0;
+}
+
+
