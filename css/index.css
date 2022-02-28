@@ -1,16 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Pacifico&display=swap');
-
-/* Coments 
-
-*/
-
-:root {
-    --fundo: #56c6fa48;
-    --fonte: #0c007a;
-    --sombra: #fff;
-    --cor-secundaria: #F2542D;
-}
+@import url(./default.css);
 
 header {
     max-width: 800px;
@@ -30,8 +18,8 @@ header h1 {
     color: var(--fonte);
 }
 
-header h3 {
-    margin: 10px auto;
+header h2 {
+    margin: 0px auto;
     font-family: 'Nunito Sans', sans-serif;
     color: var(--fonte);
 }

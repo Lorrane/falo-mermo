@@ -1,11 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Pacifico&display=swap');
 
+/* Coments 
 
-.container {
-    max-width: 800px;
-    background-color: rgba(241, 238, 202, 0.623);
-    margin: 10px auto;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    border-radius: 10px;
+*/
+
+:root {
+    --fundo: #56c6fa48;
+    --fonte: #0c007a;
+    --fundo-card: #0c007a;
+    --fonte-card: #56c6fa48;
+    --fundo-card-hover: white;
+    --sombra: white;
+    --borda: lightgrey;
+}
+
+a {
+    text-decoration: none;
 }
