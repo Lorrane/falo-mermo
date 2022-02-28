@@ -42,7 +42,7 @@ h1 {
 
 .face1 {
     position: relative;
-    background-color: var(--fonte);
+    background-color: var(--fundo-card);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,7 @@ h1 {
 .content h3 {
     margin: 5px 0 0;
     padding: 0;
-    color: var(--sombra);
+    color: var(--fonte-card);
     text-align: center;
     font-size: 1.8em;
 }
