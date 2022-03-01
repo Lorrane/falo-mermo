@@ -7,7 +7,7 @@
 
 A landing page based on a tourism website, the header has a link to home page on click on the name of page. The website has header and footer fixed, jus the main has a iframe that is change as other pages is called. The first page is called home where has a list of subjects with images, on hover the image has a animation to scale and opacity. The secondary pages has a list of cards that on hover expands de card and show a short descript of tertiary pages. The tertiary pages has just a image, some headings 2 and paragraphs. The footer has the web site map and mine signature.
 
-## script
+## Script
 
 When I was coding this website I don't follow a script, I just code piece by piece and thinking how can I make better, but i wrote this script whiling I was having ideas, so here it is.
 
