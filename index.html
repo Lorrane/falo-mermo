@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="O lugar onde contamos o que ninguém quer te contar sobre o turismo no Rio de Janeiro">
     <link rel="stylesheet" href="./css/index.css">
@@ -13,7 +15,7 @@
 
     <!-- Começo do cabeçalho, onde será base para todas as páginas. -->
     <header>
-        <a href="./pages/home.html" target="main">
+        <a href="./pages/home.html" target="frame_main">
             <h1>Falo Mermo!</h1>
         </a>
         <h2>Site que fala a verdade sobre o Rio de Janeiro</h2>
@@ -21,7 +23,7 @@
 
     <!-- Começo do main, onde ficará o iframe que mudará conforme a página ativa. -->
     <main>
-        <iframe src="./pages/home.html" name="main" frameborder="0" scrolling="no"
+        <iframe src="./pages/home.html" name="frame_main" frameborder="0" 
             onload="this.style.height=(this.contentWindow.document.body.scrollHeight+20)+'px';"></iframe>
     </main>
 
@@ -29,72 +31,76 @@
     <footer>
         <div class="mapa">
             <details>
-                <summary>Praias</summary>
+                <summary>
+                    <a href="./pages/praias.html" target="frame_main">Praias</a>
+                </summary>
                 <ul>
                     <li>
-                        <a href="#">Praia 1</a>
+                        <a href="./pages/details/praia1.html" target="frame_main">Praia 1</a>
                     </li>
                     <li>
-                        <a href="#">Praia 2</a>
+                        <a href="./pages/details/praia1.htm#" target="frame_main">Praia 2</a>
                     </li>
                     <li>
-                        <a href="#">Praia 3</a>
+                        <a href="./pages/details/praia1.htm#" target="frame_main">Praia 3</a>
                     </li>
                 </ul>
             </details>
             <details>
                 <summary>
-                    <a href="#">Passeios</a>
+                    <a href="./pages/passeios.html" target="frame_main">Passeios</a>
                 </summary>
                 <ul>
                     <li>
-                        <a href="#">Passeio 1</a>
+                        <a href="#" target="frame_main">Passeio 1</a>
                     </li>
                 </ul>
             </details>
             <details>
                 <summary>
-                    <a href="#">Pontos Turísticos</a>
+                    <a href="./pages/pontos.html" target="frame_main">Pontos Turísticos</a>
                 </summary>
                 <ul>
                     <li>
-                        <a href="#">Ponto Turísticos 1</a>
+                        <a href="#" target="frame_main">Ponto Turísticos 1</a>
                     </li>
                 </ul>
             </details>
             <details>
                 <summary>
-                    <a href="#">Transportes</a>
+                    <a href="./pages/transportes.html" target="frame_main">Transportes</a>
                 </summary>
                 <ul>
                     <li>
-                        <a href="#">Transporte 1</a>
+                        <a href="#" target="frame_main">Transporte 1</a>
                     </li>
                 </ul>
             </details>
             <details>
                 <summary>
-                    <a href="#">Bares</a>
+                    <a href="./pages/bares.html" target="frame_main">Bares</a>
                 </summary>
                 <ul>
                     <li>
-                        <a href="#">Bar 1</a>
+                        <a href="#" target="frame_main">Bar 1</a>
                     </li>
                 </ul>
             </details>
             <details>
                 <summary>
-                    <a href="#">Dicas</a>
+                    <a href="./pages/dicas.html" target="frame_main">Dicas</a>
                 </summary>
                 <ul>
                     <li>
-                        <a href="#">Dica 1</a>
+                        <a href="#" target="frame_main">Dica 1</a>
                     </li>
                 </ul>
             </details>
         </div>
-        <img align="right" alt="Developed by Lorrane"
-            src="https://img.shields.io/badge/Developed%20By-Lorrane-blue?logo=visual%20studio" />
+        <div class="assinatura">
+            <img alt="Developed by Lorrane"
+                src="https://img.shields.io/badge/Developed%20By-Lorrane-blue?logo=visual%20studio" />
+        </div>
     </footer>
 </body>
 

@@ -1,0 +1,16 @@
+@import url(./default.css);
+
+* {
+    color: var(--fonte);
+}
+
+picture {
+    align-items: center;
+    display: flex;
+}
+
+img {
+    max-width: 95%;
+    border-radius: 10px;
+    margin: 10px auto;
+}

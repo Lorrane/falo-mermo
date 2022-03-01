@@ -47,6 +47,7 @@ iframe {
 @media (max-width: 819px){
     iframe {
         width: 99.5%;
+
     }
 }
 
@@ -78,4 +79,19 @@ li {
     margin: 10px 0;
 }
 
+a {
+    color: var(--fonte);
+}
 
+@media (max-width: 460px) {
+    a {
+        font-size: 24px;
+    }
+}
+
+.assinatura {
+    margin: 0;
+    padding: 10px 5px 5px 10px;
+    display: flex;
+    justify-content: end;
+}

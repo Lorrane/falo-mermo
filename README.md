@@ -14,18 +14,18 @@ Site de informações úteis e bem humorado para turistas que pretendem conhecer
 - [x] The flexible main
 - [x] Home outside main
 - [x] Praias page
-- [ ] Base of Praia page
-- [ ] Passeios page
-- [ ] Base of Passeio page
-- [ ] Pontos Turísticos page
-- [ ] Base of Pontos Turísticos page
-- [ ] Transportes page
-- [ ] Base of Transportes page
-- [ ] Bares page
-- [ ] Base of Bares page
-- [ ] Dicas page
-- [ ] Base of Dicas page
-- [ ] Footer
+- [x] Base of Praia page
+- [x] Passeios page
+<!-- - [ ] Base of Passeio page -->
+- [x] Pontos Turísticos page
+<!-- - [ ] Base of Ponto Turístico page -->
+- [x] Transportes page
+<!-- - [ ] Base of Transporte page -->
+- [x] Bares page
+<!-- - [ ] Base of Bar page -->
+- [x] Dicas page
+<!-- - [ ] Base of Dica page -->
+- [x] Footer
 
 ## Modelo
 
