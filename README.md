@@ -26,6 +26,6 @@ When I was coding this website I don't follow a script, I just code piece by pie
 
 ## Model
 
-The page is being hosting on Github Pages, here the <a href="lorrane.github.io/falo-mermo">link</a> to, hope you like.
+The page is being hosting on Github Pages, here the <a href="https://lorrane.github.io/falo-mermo">link</a> to, hope you like.
 
 <img align=right alt="Developed by Lorrane" src="https://img.shields.io/badge/Developed%20By-Lorrane-blue?logo=visual%20studio" />
